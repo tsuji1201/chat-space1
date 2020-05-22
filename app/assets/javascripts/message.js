@@ -60,7 +60,7 @@ $(function(){
     });
   });
   var reloadMessages = function() {
-    var last_message_id = $('.messsage-list__box:last').data("message-id");
+    var last_message_id = $('.message-list__box:last').data("message-id");
     $.ajax({
       url: "api/messages",
       type: "GET",
